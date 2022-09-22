@@ -1,0 +1,251 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubheadingTwo}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Boyuan Deng} \\ \vspace{2.5pt}
+    \small 949-656-5958 $|$ \href{mailto:dengboyuan2001@gmail.com}{\underline{dengboyuan2001@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/boyuan-deng}{\underline{linkedin: boyuan-deng}} $|$
+    \href{https://github.com/Boyuan-Deng}{\underline{Github: Boyuan-Deng}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of California, Berkeley}{Aug. 2020 -- May 2023}
+      {Electrical Engineering and Computer Science B.S. - GPA: 3.5}{Berkeley, CA}
+  \resumeSubHeadingListEnd
+
+
+
+
+% ------------Angels-------------
+\section{Venture Capital}
+    \resumeSubHeadingListStart
+      \resumeSubheadingTwo
+      {Miracle Plus (YC China) $|$ \small{Venture Fellow}}{March 2022 -- June 2022}
+          \resumeItemListStart
+            \resumeItem{Sourcing Gamefi projects around the bay area by attending conferences and building relationships with founders}
+            \resumeItem{Participated in the process of funding discussions and conduct extensive background checks}
+            \resumeItem{Built relationship with UC Berkeley innovation hubs and incubator around Berkeley}
+          \resumeItemListEnd
+      \resumeSubheadingTwo
+      {Uphonest Capital $|$ \small{Venture Scout}}{Jan 2022 -- March 2022}
+          \resumeItemListStart
+            \resumeItem{Served as a contact point to enhance communication with talents within berkeley entrepreneur communities}
+            \resumeItem{Actively seeking talented founders around Bay area to source potential investment oppoturnities}
+            \resumeItem{Organize keynote events to add visibility to Uphonest brand and raise awareness}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Technical Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+    {\href{https://youtu.be/wMmpyEkLWdU}{\underline{Insider}} $|$ \small{Founding Engineer}}{Dec 2021 -- Feb 2022}
+      {Web3 Gamefi Analytics Platform}{Berkeley, CA}
+      \resumeItemListStart
+        \resumeItem{Extracted on-chain data to create a return-of-investment ranking board for the axie infinity project}
+        \resumeItem{Built a simple indexing system for rohin bridge to extract transaction information about a specific block}
+        \resumeItem{Developed a dashboard to display graphical insights about a wallet’s interaction with supported gamefi projects}
+        \resumeItem{Tech Stack: Web3.js, Ether.js, Alchemy, Python, Javascript, AWS EC2}
+      \resumeItemListEnd
+
+    \resumeSubheading
+    {\href{https://www.aqueducthq.com/}{\underline{Aqueduct}} \small{(Redpoint Ventures Porfolio)} $|$ \small{Software Engineer Intern}}{Feb 2022 -- Aug 2022}
+      {Open-source workflow management platform for data engineering pipelines}{San Francisco, CA}
+      \resumeItemListStart
+        \resumeItem{Led the user-feedback project that resolve fifteen critical bugs that are deteriorating user experience}
+        \resumeItem{Expand the workflow engine to process non-tabular data such as json, numeric, and other python-pickable objects}
+        \resumeItem{Utilized RESTful API to build communication routes between UI and server; developed the pattern of constructing and parsing http request to improve code maintainability}
+        \resumeItem{Implemented a notification system for user to monitor workflow execution status; enabled user to customize metrics to trigger various types of signal}
+        \resumeItem{Tech Stack: Go, Python, React, Typescript, REST API, Next.js, MUI, AWS EC2, AWS S3, Kubernetes}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+% -------------------------------------------
+
+    \resumeSubheading
+    {\href{https://www.avalanc.com/}{\underline{Avalanche}} $|$ \small{Software Engineer Intern}}{Sep. 2021 -- Dec. 2021}
+      {ML model training acceleration and deployment tool}{San Francisco, CA}
+      \resumeItemListStart
+        \resumeItem{With the team, designed and developed the storage level to store and extract language model using AWS S3}
+        \resumeItem{Built cache system to store useful metadata in previous training set to boost performance in the future training}
+        \resumeItem{Created a user demo to showcase hAIsten reduces training time by five times on a language model training task}
+        \resumeItem{Tech Stack: Python, React, C++, Tensorflow, Pytorch, AWS EC2, kubernetes}
+    \resumeItemListEnd
+
+      \resumeSubheading
+      {\href{https://www.youtube.com/watch?v=CJtjjkdpU5M}{\underline{Applient}} $|$ \small{Full-Stack Engineer}}{Jun 2021 -- Aug 2021}
+      {Job Application Autofilling Tool}{Berkeley, CA}
+      \resumeItemListStart
+        \resumeItem{Developed a Chrome extension using JQuery \& Bootstrap to fill online job application in one click}
+        \resumeItem{Implemented a web scraper using Python BS4 and HTTPX to collect related information from job-listing websites}
+        \resumeItem{Built and hosted the user portal with AWS EC2; stored user data using Chrome storage API and AWS S3}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+
+%-----------PROJECTS-----------
+% \section{Research}
+%     \resumeSubHeadingListStart
+%       \resumeSubheading
+%       {RISE System Lab at Berkeley $|$ \small{Undergraduate Researcher}}{Sep 2021 -- March 2022}
+%       {https://github.com/loglabs/mltrace}{}
+%           \resumeItemListStart
+%             \resumeItem{Topic: tracing tools to enhance observability for ML Pipelines in the context of heterogeneous stacks of tools}
+%             \resumeItem{Collaborated with other reseachers to prototype a autologging system for key pipeline metrics and parameters}
+%             \resumeItem{Refactored codebase and built Docker containers to separate UI and server components for easier installment}
+%             \resumeItem{Created dashboards and pictograms with React.js to convert querying results from pipeline component run to insights regarding component performance by linking back-end generated data with front-end React component}
+%           \resumeItemListEnd
+%       \resumeSubheading
+%       {BAIR AI Lab at Berkeley $|$ \small{Research Assistant}}{March 2022 -- May 2022}
+%       {http://ai-climate.berkeley.edu/}{}
+%           \resumeItemListStart
+%             \resumeItem{Built a static website using React to share information about berkeley climate initiative and integrate the website with Jekyll to enable content writers to update the website without coding}
+%             \resumeItem{Collect updates from individual research projects and present the summary in the bi-weekly climate seminar}
+%           \resumeItemListEnd
+%     \resumeSubHeadingListEnd
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, Go, JavaScript, SQL, HTML/CSS, Java, C++} \\
+     \textbf{Tools}{: AWS EC2 \& S3, React, Node.js, Docker, Kubernetes, Flask, JUnit, Material-UI, jQuery, Typescript, REST API} \\
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
