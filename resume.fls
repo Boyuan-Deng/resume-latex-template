@@ -1,6 +1,6 @@
-PWD c:\Users\dengb\boyuan-resume-latex-template
+PWD C:\Users\dengb\resume-latex-template
 INPUT C:\Users\dengb\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\dengb\boyuan-resume-latex-template\resume.tex
+INPUT c:\Users\dengb\resume-latex-template\resume.tex
 OUTPUT resume.log
 INPUT C:\Users\dengb\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\dengb\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls

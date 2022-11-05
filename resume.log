@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.8.19)  21 SEP 2022 23:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.8.19)  4 NOV 2022 18:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/dengb/boyuan-resume-latex-template/resume.tex
-(c:/Users/dengb/boyuan-resume-latex-template/resume.tex
+**c:/Users/dengb/resume-latex-template/resume.tex
+(c:/Users/dengb/resume-latex-template/resume.tex
 LaTeX2e <2022-06-01> patch level 5
 L3 programming layer <2022-07-04> (C:\Users\dengb\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -292,11 +292,11 @@ LaTeX Font Info:    Trying to load font information for U+lasy on input line 116
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 127.
+(Font)              <10.95> on input line 128.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 127.
+(Font)              <8> on input line 128.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 127.
+(Font)              <6> on input line 128.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -314,14 +314,14 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  10324 strings out of 478338
- 166677 string characters out of 2836700
- 513083 words of memory out of 3000000
+ 166614 string characters out of 2836700
+ 514083 words of memory out of 3000000
  28622 multiletter control sequences out of 15000+600000
  474851 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,11n,77p,314b,451s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 72i,11n,77p,307b,451s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Users/dengb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/dengb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/dengb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/dengb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/dengb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/dengb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/dengb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on resume.pdf (1 page, 110661 bytes).
+Output written on resume.pdf (1 page, 112559 bytes).
 PDF statistics:
  70 PDF objects out of 1000 (max. 8388607)
  6 named destinations out of 1000 (max. 500000)
